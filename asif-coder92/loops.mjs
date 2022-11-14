@@ -38,6 +38,7 @@ for (let i = 1; i < 11; i++)
         status:status
     }
     myArr.push(temp)
-    console.log(myArr);
     
 }
+console.log(myArr);
+    
