@@ -38,7 +38,7 @@ callb( ["Video1","Video2","Video3"])
 }
 
 loginDetail("mr.asifjamal@gmail.com", "ajamal", (email)=> {
-console.log("User logged in as ",email)
-getUserVideos(email, (videos)=> console.log("videos fetched"))
-getUserVideos(email, (videos)=> console.log(videos)) 
+console.log("User logged in as ",email)         //User logged in as  mr.asifjamal@gmail.com
+getUserVideos(email, (videos)=> console.log("videos fetched"))      //videos fetched
+getUserVideos(email, (videos)=> console.log(videos))        // [ 'Video1', 'Video2', 'Video3' ]
 })  
