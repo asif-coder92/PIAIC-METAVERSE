@@ -24,4 +24,6 @@ function factorial(fl) {
         return fl* factorial(--fl)
     }
 }
-console.log(factorial(0));
+// console.log(factorial(6));
+var x= factorial(8)
+console.log(x);

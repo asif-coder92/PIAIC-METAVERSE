@@ -43,8 +43,7 @@ let car ={
     color: "Red"
 };
 for (const key in car) {
-    // if (car.hasOwnProperty.call(object, key)) {
-    //     const element = object[key];
+
     console.log(car[key]);
         
     }
